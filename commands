@@ -1,0 +1,5 @@
+monero-wallet-cli --daemon-address testnet.xmr.ditatompel.com:443 --wallet-file my_test_monero_wallet --password password --testnet --trusted-daemon
+
+monero-wallet-rpc --daemon-address testnet.xmr.ditatompel.com:443 --rpc-bind-port 18082 --wallet-file my_test_monero_wallet --password password --testnet --rpc-login monero:password
+
+monerod.exe --testnet --prune-blockchain --bootstrap-daemon-address auto --no-sync
